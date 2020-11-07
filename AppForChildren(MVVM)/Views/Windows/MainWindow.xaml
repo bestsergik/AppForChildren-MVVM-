@@ -20,11 +20,9 @@
             <MenuItem Header="О программе"></MenuItem>
         </Menu>
         <StatusBar DockPanel.Dock="Bottom">
-            <StatusBarItem>
+            <StatusBarItem MaxWidth="300" MaxHeight="150">
                 <TextBlock Text="й234">
-                    
                 </TextBlock>
-                
             </StatusBarItem>
             <StatusBarItem>
                 <ProgressBar Width="120" Height="15" Value="30"></ProgressBar>
