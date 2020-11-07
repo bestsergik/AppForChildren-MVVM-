@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using AppForChildren_MVVM_.ViewModels.Base;
 
-namespace AppForChildren_MVVM_.ViewModels.Base
+namespace AppForChildren_MVVM_.ViewModels
 {
    internal class MainWindowViewModel : ViewModel
     {
-        private string _Title;
+        private string _Title = "Программа для детей";
 
-
+         
         /// <summary>Заголовок окна </summary>
         public string Title
         {
